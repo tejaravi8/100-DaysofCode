@@ -9,7 +9,7 @@ Every day, I’m committed to learning, building, and growing as a developer —
 
 | Day | Topics Covered | Link |
 |-----|----------------|------|
-| 1   | Python: Lists, Dictionaries, Loops, enumerate() | [Day 1](./Day1/) |
+| 1   | Python: Lists, Dictionaries, Loops, enumerate() | Day 1|
 | 2   | Python: List comprehension |[Day 2](./Day2/) |
 
 ---
