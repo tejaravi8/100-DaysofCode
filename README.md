@@ -11,6 +11,7 @@ Every day, I’m committed to learning, building, and growing as a developer —
 |-----|----------------|------|
 | 1   | Python: Lists, Dictionaries, Loops, enumerate() | Day 1|
 | 2   | Python: List comprehension |[Day 2](./Day2/) |
+| 3   | Python: Functions |[Day 3](./Day3/) |
 
 ---
 
