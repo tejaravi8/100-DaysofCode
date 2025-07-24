@@ -105,13 +105,26 @@ for i in range(1, rows + 1):
 
 
 
+ # listt=[10,15,20]
 
-
-
-
-
-
-
+# # res=[]
+# # for i in listt:
+# #     r=[]
+# #     for j in range(1,i):
+# #         if i%j==0:
+# #             r.append(j)
+# #     res.append(r)
+             
+# # print(res)
+# listt=[10,15,20]
+# res={}
+# for i in listt:
+#     r=[]
+#     for j in range(1,i):
+#         if i%j==0:
+#             r.append(j)
+#     res[i]=r
+# print(res)
 
 
 
