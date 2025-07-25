@@ -35,7 +35,7 @@ print(freq)
 
 list1=[1,2,3]
 list2=[1,2,7]
-# new=[]
+new=[]
 for i,j in zip(list1,list2):
     if i==j:
         print("equal",i)
