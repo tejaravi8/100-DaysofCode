@@ -13,6 +13,7 @@ Every day, I’m committed to learning, building, and growing as a developer —
 | 2   | Python: List comprehension |[Day 2](./Day2/) |
 | 3   | Python: Functions | [Day 3](./day3/)  |
 | 4   | Student Mark Analyzer | [Day 4](./Day4/)  |
+| 5   | Split expenses,prime number sums | [Day 5](./Day5/)  |
 
 ---
 
