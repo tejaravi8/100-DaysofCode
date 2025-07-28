@@ -2,6 +2,7 @@
 
 nums=[1,3,2,5,8,4,9,4]
 
+# descending
 for i in range(0,len(nums)):
     for j in range(i+1,len(nums)):
         if nums[i]<nums[j]:
@@ -9,4 +10,14 @@ for i in range(0,len(nums)):
         else:
             nums[i],nums[j]=nums[i],nums[j]
             
-print(nums)
+print(nums,"Descending")
+
+# ascending
+for i in range(0,len(nums)):
+    for j in range(i+1,len(nums)):
+        if nums[i]>nums[j]:
+            nums[i],nums[j]=nums[j],nums[i]
+        else:
+            nums[i],nums[j]=nums[i],nums[j]
+            
+print(nums,"ascending")
