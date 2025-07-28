@@ -1,0 +1,56 @@
+# # # # # # # # for i in range(1,11):
+# # # # # # # #     for j in range(1,21):
+# # # # # # # #         print(f"{i} * {j} = {i*j}")
+# # # # # # # #     print()
+
+# # # # # # # j=["python","java","c++"]
+
+# # # # # # # for i in j:
+# # # # # # #     for x in range(0,len(i),2):
+# # # # # # #         print(i[x])
+# # # # # # #     print()
+
+# # # # # # j=[10,15,26,20,8,9]
+# # # # # # for i in range(len(j)):
+# # # # # #     if i%2==0:
+# # # # # #         j[i]+=10
+        
+# # # # # # print(j)
+
+# # # # # i=0
+
+# # # # # while i<=10:
+# # # # #     print(i)
+# # # # #     i+=1
+
+# # # # i=-1
+# # # # while i>=-10:
+# # # #     print(i)
+# # # #     i-=1
+
+# # # # i=0
+# # # # while i<=4:
+# # # #     print(i)
+# # # #     a=1
+    
+# # # #     while a<=5:
+# # # #         print(i,a)
+# # # #         a+=1
+# # # #     i+=1
+# # # #     print()
+
+# # # a=1
+# # # while a<=10:
+# # #     j=1
+# # #     while j<=10:
+# # #         print(a,"*",j,"=",a*j)
+# # #         j+=1
+# # #     a+=1
+# # #     print()
+
+# import random
+# # for i in range(10):
+    
+# #     print(random.randint(9398000000,9398999999))
+
+# print(random.choice("100"))
