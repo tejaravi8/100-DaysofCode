@@ -1,0 +1,18 @@
+sample_output:
+
+----- Bank Menu -----
+1) Create New Account
+2) Deposit
+3) Withdraw
+4) Account Details
+5) Check Balance
+6) Exit
+Choose an option (1-6): 1
+***=========*** Welcome to My Bank ***========***
+Enter Holder name:Botsa Raviteja
+Enter Aadhar number:123412341234
+Enter Mobile number:9948914093
+Select Account Type Saving/ Zero:saving
+Your Account is saving You have to deposite 500 rupees:
+Deposite 500 rupees:500
+[{'Holder_Name': 'Raviteja', 'Aadhar_Number': '123412341234', 'Mobile': '9111900012', 'IFSCCODE': 'IFSC05235', 'Account_Number': 9948914093, 'Suffitient_Balance': 500}, {'Holder_Name': 'Botsa Raviteja', 'Aadhar_Number': '123412341234', 'Mobile': '9948914093', 'IFSCCODE': 'IFSC05235', 'Account_Number': 6292041097, 'Suffitient_Balance': 500}]
