@@ -134,16 +134,9 @@
     
 # (non empty)folder delete 
    
-# import os
-# import shutil 
-# if os.path.exists("fold"):
-#     shutil.rmtree('fold')
-# else:
-#     print("file does not exist")
-
-
-
-# # csv
-
-import csv
-
+import os
+import shutil 
+if os.path.exists("fold"):
+    shutil.rmtree('fold')
+else:
+    print("file does not exist")

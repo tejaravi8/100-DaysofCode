@@ -1,0 +1,625 @@
+hello bro
+how r u
+teja is my name
+chandu is my brother
+
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 140
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 201
+
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 281
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt351
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 386
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 201
+
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 457
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt
+hello bro
+hello bro
+how r u
+how r u
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+teja is my name
+chandu is my brother
+# What is file handling in Python?
+
+# file handling is the process of creating , reading , writing, and deleting files using python code. it allows a programm to store and manage data perminantly
+
+
+# 2.	Difference between read(), readline(), and readlines().
+
+
+
+# 3.	What are different file modes in Python?
+
+# 4.	How do you copy content from one file to another?
+
+# 5.	Write code to read and write a text file.
+
+# 6.	Find the sum and average of elements in a list.
+
+# 7.	Remove all elements from a list that appear more than once.
+
+# 8.	Convert a tuple of tuples to a dictionary:
+# Example: ((1, 'a'), (2, 'b')) → {1: 'a', 2: 'b'}
+
+# 9.	Write a Python program to delete a file named data.txt 632
