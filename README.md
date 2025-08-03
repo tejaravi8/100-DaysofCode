@@ -21,7 +21,7 @@ Every day, I’m committed to learning, building, and growing as a developer —
 | 10  | Problems on While Loop | [Day 10](./Day10/)  |
 | 11  | Practiced some problems not much shine today | [Day 11](./Day11/)  |
 | 12  | File Handling | [Day 12](./Day12/)  |
-| 13  | Week2 Revision and patterns | [Day 13](./Day13patterns/)  |
+| 13  | Week2 Revision and patterns | [Day 13](./Day13_patterns/)  |
 
 
 
