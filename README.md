@@ -22,6 +22,8 @@ Every day, I’m committed to learning, building, and growing as a developer —
 | 11  | Practiced some problems not much shine today | [Day 11](./Day11/)  |
 | 12  | File Handling | [Day 12](./Day12/)  |
 | 13  | Week2 Revision and patterns | Day 13 |
+| 14  | Nested Challenges on list | [Day 14](./Day14/)  |
+
 
 
 

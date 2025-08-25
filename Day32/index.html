@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            height: 100vh;
+            gap: 10px;
+        }
+        .footer{
+            background-color: antiquewhite;
+            grid-column: 2/6;
+            grid-row: 5/6;
+        }
+        .header{
+            background-color: aqua;
+            grid-column: 1/6;
+            grid-row: 1/2;
+        }
+        .ads{
+            background-color: #78d364;
+        }
+        .nav{
+            background-color: #a867e5;
+            grid-row: 3/6;
+        }
+        .article{
+            background-color: #c26b6b;
+            grid-row: 2/5;
+            grid-column: 2/6;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">header</div>
+        <div class="footer">footer</div>
+        <div class="ads">ads</div>
+        <div class="nav">nav</div>
+        <div class="article">article</div>
+    </div>
+</body>
+</html>

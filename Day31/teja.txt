@@ -1,0 +1,15 @@
+hello every one 0
+hello hi two 1
+hello bye three
+hello goodbye four
+hhh
+goodbye
+goodbyeg
+g
+r
+g
+
+
+['hello','teja,hello,pablo]
+
+new=[helll,hell]
