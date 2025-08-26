@@ -161,17 +161,54 @@
 # # print(acc.__balance)    ❌ Error
 
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Shape(ABC):   # Abstract Class
-    @abstractmethod
-    def area(self):   # Abstract Method
-        pass
+# class Shape(ABC):   # Abstract Class
+#     @abstractmethod
+#     def area(self):   # Abstract Method
+#         pass
 
-    # @abstractmethod
-    # def perimeter(self):
-    #     pass
+#     # @abstractmethod
+#     # def perimeter(self):
+#     #     pass
 
-        # 78.5
-# print("Perimeter:", c.perimeter()) # 31.4
+#         # 78.5
+# # print("Perimeter:", c.perimeter()) # 31.4
 
+# from abc import ABC,abstractmethod
+
+# class find(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+    
+#     @abstractmethod
+#     def area2(self):
+#         pass
+    
+# class show(find):
+    
+#     def __init__(self,rad):
+#         self.rad=rad
+        
+#     def area(self):
+#         return 3.14 *self.rad*self.rad
+    
+#     def area2(self):
+#         return 3.14*self.rad*self.rad*2
+
+
+from teja2 import parent
+
+class mom(parent):
+    
+    def child1(self,age):
+        self.age=age
+        return self.age+5
+    
+    def child2(self,age):
+        self.age=age
+        return age
+
+        
+    

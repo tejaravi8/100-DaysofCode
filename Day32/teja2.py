@@ -1,4 +1,8 @@
-from hh import Circle
+from abc import ABC,abstractmethod
 
-c = Circle(5)   # ✅
-print("Area:", c.area())
+class parent(ABC):
+    def child1(self):
+        pass
+    
+    def child2(self):
+        pass
