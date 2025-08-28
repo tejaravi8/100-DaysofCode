@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{           
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            border: 10px rgb(185, 202, 138) solid;
+            padding: 10px;
+        }
+        .child1{
+            background-color: rgb(134, 78, 5);
+        }
+        .child2{
+            background-color: blue;
+        }
+        .child3{
+            background-color: aqua;
+        }
+
+        .parent2{                  
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height: 100vh;
+            border: 10px grey solid;
+            gap: 10px;
+            padding: 10px;
+        }
+        .child1{
+            background-color: aqua;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        .child2{
+            background-color: rgb(80, 222, 99);
+            grid-column: 3/5;
+
+        }
+        .child3{
+            background-color: rgb(182, 101, 217);
+            grid-column: 3/5;
+            grid-row: 2/3;
+        }
+
+        .parent3{         
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(6,1fr);
+            gap: 10px;
+            border: 10px rgb(94, 96, 129) solid;
+        }
+        .child1{
+            background-color: aquamarine;
+            grid-row: 1/2;
+            grid-column: 1/3;
+        }
+        .child2{
+            background-color: rgb(128, 123, 112);
+            grid-column: 3/5;
+
+        }
+        .child3{
+            background-color: rgb(245, 165, 136);
+            grid-column: 5/7;
+        }
+        .child4{
+            background-color: rgb(225, 125, 125);
+            grid-row: 2/3;
+            grid-column: 1/3;
+        }
+        .child5{
+            background-color: rgb(113, 180, 231);
+            grid-column: 3/5;
+            
+        }
+        .child6{
+            background-color: rgb(181, 108, 227);
+            grid-row: 2/3;
+            grid-column: 5/7;
+        }
+
+        .parent4{             
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(6,1fr);
+            border: 10px rgb(185, 202, 138) solid;
+        }
+        .child1{
+            background-color: beige;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .child2{
+            background-color: aquamarine;
+            grid-column: 1/3;
+            grid-row: 2/4;
+        }
+        .child3{
+            background-color: blueviolet;
+            grid-column: 3/5;
+            grid-row: 3/4;
+        }
+        .child4{
+            background-color: chocolate;
+            grid-column: 3/5;
+            grid-row: 1/3;
+        }
+        .child5{
+            background-color: darkcyan;
+            grid-column: 5/7;
+            grid-row: 1/2;
+        }
+        .child6{
+            background-color: darkkhaki;
+            grid-column: 5/7;
+            grid-row: 2/4;
+        }
+
+        .parent5{              
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(10,1fr);
+            gap: 10px;
+            border: 10px rgb(130, 132, 124) solid;
+        }
+        .child1{
+            background-color: antiquewhite;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .child2{
+            background-color: rgb(163, 160, 156);
+            grid-column: 3/6;
+            grid-row: 1/2;
+        }
+        .child3{
+            background-color: rgb(175, 109, 21);
+            grid-column: 1/6;
+            grid-row: 2/3;
+        }
+        .child4{
+            background-color: rgb(60, 52, 42);
+            grid-column: 6/11;
+            grid-row: 2/3;
+        }
+        .child5{
+            background-color: rgb(215, 220, 250);
+            grid-column: 6/9;
+            grid-row: 1/2;
+        }
+        .child6{
+            background-color: rgb(8, 55, 83);
+            grid-column: 9/11;
+            grid-row: 1/2;
+        }
+        .child7{
+            background-color: rgb(64, 204, 217);
+            grid-column: 1/3;
+            grid-row: 3/4;
+        }
+        .child8{
+            background-color: rgb(136, 79, 210);
+            grid-column: 3/6;
+            grid-row: 3/4;
+        }
+        .child9{
+            background-color: rgb(13, 129, 245);
+            grid-column: 6/9;
+            grid-row: 3/4;
+        }
+        .child10{
+            background-color: rgb(102, 156, 183);
+            grid-column: 9/11;
+            grid-row: 3/4;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="parent">      
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+        </div>
+
+        <div class="parent2">      
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+        </div>
+
+        <div class="parent3">       
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+            <div class="child4"></div>
+            <div class="child5"></div>
+            <div class="child6"></div>
+        </div>
+
+        <div class="parent4">
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+            <div class="child4"></div>
+            <div class="child5"></div>
+            <div class="child6"></div>
+        </div>
+
+        <div class="parent5">
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+            <div class="child4"></div>
+            <div class="child5"></div>
+            <div class="child6"></div>
+            <div class="child7"></div>
+            <div class="child8"></div>
+            <div class="child9"></div>
+            <div class="child10"></div>
+        </div>
+    </div>
+</body>
+</html>

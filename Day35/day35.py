@@ -113,27 +113,27 @@
 
 
 
-# n=[1,2,3]
-# sum=0     #  1
-# for i in n:
-#     sum=i+sum*10
+n=[1,2,3]
+sum=0
+for i in n:
+    sum=i+sum*10
     
-# sum=sum+1
-# new=[]
-# while sum>0:
-#     r=sum%10
-#     new=[r]+new
-#     sum=sum//10
-# print(new)
+sum=sum+1
+new=[]
+while sum>0:
+    r=sum%10
+    new=[r]+new
+    sum=sum//10
+print(new)
     
     
-def check(num):
-    if 2>num:
-        return False
-    for i in range(2,num):
-        if num%i==0:
-            return False
-    return True
+# def check(num):
+#     if 2>num:
+#         return False
+#     for i in range(2,num):
+#         if num%i==0:
+#             return False
+#     return True
 
 
 # num=int(input('eneter number:'))
@@ -278,9 +278,156 @@ def palindrome(name):
     else:
         return False
     
-n=[]
-for i in range(2,100):
-    if check(i) or palindrome(i):
-        n.append(int(i))
+
+    
+# n=[]
+# for i in range(2,100):
+#     if check(i) or palindrome(i):
+#         n.append(int(i))
         
-print(n)
+# print(n)
+
+
+# 🔹 Prime Number Logic
+
+# Print all prime numbers between 1 and n.
+
+# Print the first n prime numbers.
+
+# Find the sum of the first n prime numbers.
+
+# Print the largest prime smaller than a given number n.
+
+# Print the first n twin primes (we solved this).
+
+# 🔹 Number Patterns & Properties
+
+# Check if a number is Armstrong (153 = 1³+5³+3³).
+
+# Check if a number is a Strong number (145 = 1!+4!+5!).
+
+# Check if a number is a Palindrome (same forwards & backwards).
+
+# Check if a number is an Automorphic number (its square ends with itself, e.g. 25² = 625).
+
+# Check if a number is a Harshad number (divisible by sum of its digits).
+
+
+num=11
+n=num
+s=0
+while num>0:
+    s=s+num%10
+    num//=10
+
+if n%s==0:
+    print(True)
+else:
+    print(False)
+# 🔹 Series & Sequences
+
+# Generate the first n Fibonacci numbers.
+
+# Print all Fibonacci primes up to n.
+
+# def fibo(n):
+#     a,b=0,1
+#     for _ in range(1,n+1):
+#         a,b=b,a+b
+#         if check(a) and a<=n:
+#             print(a)
+#         if a==n:
+#             break
+# fibo(233)
+        
+
+# Print all numbers up to n that are both prime and palindrome.
+
+# Print all numbers up to n that are both Armstrong and palindrome.
+
+def arm(num):
+    n=num
+    sum=0
+    while n>0:
+        sum=(n%10)**3 + sum
+        n//=10
+    if sum==num:
+        return True
+    else:
+        return False
+
+# pal=[]
+# ar=[]
+# for i in range(100,1000):
+#     if palindrome(i):
+#         pal.append(i)
+#     if arm(i):
+#         ar.append(i)
+    
+# print(pal,'arm:',ar)
+        
+# n=1000
+# for i in range(100,n+1):
+#     if 
+    
+# Generate the first n factorial numbers.
+
+# n=5
+
+# for i in range(1,n+1):
+#     fact=1
+#     for j in range(1,i+1):
+#         fact*=j
+#     print(fact,i)
+        
+
+# 🔹 Logical Challenges
+
+# Print all numbers up to n that have exactly 3 divisors.
+# for i in range(1,100):
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+#     if count==3:
+#         print(i)
+            
+
+# Print the prime gap (difference between consecutive primes) up to n.
+# high=0
+# low=0
+# for i in range(2,100):
+#     if check(i) and i>high:
+#         low=high
+#         high=i
+#         print('gap:',high-low,i)
+        
+
+
+# Check if a number can be written as the sum of two squares.
+
+# num=25
+# for i in range(1,num):
+#     for j in range(i,num):
+#         if (i**2)+(j**2)==num:
+#             print(i,j)
+#             print(f"{i**2}+{j**2} = {num}")
+
+
+# Find the nth prime number.
+
+# num=0
+# i=1
+# n=[]
+# while i>0:
+#     if check(i):
+#         num+=1
+#         n.append(i)
+#     if num==8:
+#         print(i)
+#         print(n)
+#         break
+#     i+=1
+        
+
+# Print all perfect numbers up to n (sum of divisors = number).
