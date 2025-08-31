@@ -121,8 +121,13 @@ for i in range(1,len(name)):
         name2+=name[i-1]
         
 new+=[name2+name[-1]]
-
 print(new)
+
+check=''
+for i in new:
+    if len(i)>len(check):
+        check=i
+print(check)    
         
 # name2=''
 # for i in name:
@@ -133,3 +138,16 @@ print(new)
 #         name2=i
 
 # print(new)
+
+class upper:
+    def use(self,name):
+        return name
+    
+class lower(upper):
+    def notuse(self,name):
+        print((super().use('herooo')))
+        return name
+        
+        
+obj=lower()
+print(obj.notuse('tejaggg'))
