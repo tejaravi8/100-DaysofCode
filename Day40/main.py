@@ -70,7 +70,8 @@ company={'teja':{'age':21,'salary':53000},
          'ganesh':{'age':24,'salary':47000},
          'pablo':{'age':25,'salary':60000}
         }
-print(sorted(company))
+
+
 
 # Find the student who scored the minimum in Math.
 # students={
