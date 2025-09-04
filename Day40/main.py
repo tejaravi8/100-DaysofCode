@@ -110,3 +110,49 @@ students={
 #         new[i]=j
 # for i,j in new.items():
 #     print({i:j})
+
+# Given ((1,2),(3,4),(5,6)), print the sum of all elements.
+
+# num=((1,2),(3,4),(5,6))
+# sum=0
+# for i in num:
+#     for j in i:
+#         sum+=j
+# print(sum)
+        
+# Check if a nested tuple contains a specific value.
+# num=((1,2),(3,4),(5,6))
+# n=9
+# a=True
+# for i in num:
+#     for j in i:
+#         if j==n:
+#             a=False
+#             print('found')
+#             break
+# if a:
+#     print('not found')
+# Convert a nested tuple into a dictionary {index: tuple}.
+
+# Swap the elements of each nested tuple → (1,2) → (2,1).
+
+# Find the tuple with maximum sum of elements.
+
+# Sort a list of nested tuples by the second element.
+
+# Convert a nested tuple into a flat list.
+
+# Count the frequency of elements in a nested tuple.
+
+# Reverse each inner tuple.
+
+# Find common elements between two nested tuples.
+
+def check(num):
+    if num<2:
+        return False
+    for i in range(2,num):
+        if num%i==0:
+            return False
+    return True
+print(check(6))
