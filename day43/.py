@@ -111,11 +111,3 @@ for i in range(1,n+1):
     if 1<=i<10 or 21<=i<=30 or 41<=i<=50 or 61<=i<=70 or 81<=i<=90:
         print(i)
 
-
-
-
-
-
-
-def greet():
-    print('hello')
