@@ -141,18 +141,90 @@ students={
 # Sort a list of nested tuples by the second element.
 
 # Convert a nested tuple into a flat list.
-
+# n=((1,(2,3)),(4,5))
+# result=[]
+# for i in n:
+#     if type(i)==tuple:
+#         for j in i:
+#             if 
+#             result.append(j)
+#     else:
+#         result.append(i)
+# print(result)
 # Count the frequency of elements in a nested tuple.
 
 # Reverse each inner tuple.
 
 # Find common elements between two nested tuples.
 
-def check(num):
-    if num<2:
-        return False
-    for i in range(2,num):
-        if num%i==0:
-            return False
-    return True
-print(check(6))
+# def check(num):
+#     if num<2:
+#         return False
+#     for i in range(2,num):
+#         if num%i==0:
+#             return False
+#     return True
+# print(check(6))
+
+
+
+# name='he llo wor ld'
+# new=name.split(' ')
+# new='8'.join(new)
+# print(new)
+
+
+# name='hel_lo_wor_ld'
+# new=name.split('_')
+# new=''.join(new)
+# print(new)
+
+# name='my_variable_name'
+# output=''
+# # output+=name[0].upper()
+# for i in range(1,len(name)):
+#     if name[i-1]=="_":
+#         output+=(name[i].upper())
+#     elif name[i]=='_':
+#         pass
+#     else:
+#         output+=name[i]
+# print(output)
+
+n='my_variable_name'
+o=''
+o+=n[0].upper()
+for i in range(1,len(n)):
+    if n[i-1]=="_":
+        o+=n[i].upper()
+    elif n[i]=="_":
+        pass
+    else:
+        o+=n[i]
+print(o)
+    
+
+n='my_VariableName'
+o=''
+o+=n[0].upper()
+for i in range(1,len(n)):
+    if n[i-1]=="_":
+        o+=n[i].upper()
+    elif n[i]=="_":
+        pass
+    else:
+        o+=n[i]
+print(o)
+
+k="abc1234"
+l=""
+for i in k:
+    if k[i]==k.isdigit:
+        
+        
+# name='hello'
+# new=''
+# for i in name:
+#     new=i+new
+# print(new)
+# # print(name[::-1])
