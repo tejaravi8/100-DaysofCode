@@ -1,11 +1,11 @@
 # a={1, 2, 3,[6,7]}
 # print(a)
 
-# a={1, 2, 3}
-# a.discard(3)
-# print(a)
-# a={1, 2,5}
-# b={2,1}
+a={1, 2, 3}
+a.discard(3)
+print(a)
+a={1, 2,5}
+b={2,1}
 
 # # a.clear()
 # a=list()
