@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+    <h1>All Students 📚</h1>
+    <a href="/">Home</a> | <a href="/add">Add New</a>
+    <ul>
+        {% for id, info in students.items() %}
+        <li>{{ info.name }} ({{ info.age }} yrs) → {{ info.course }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

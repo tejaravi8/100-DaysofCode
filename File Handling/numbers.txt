@@ -1,0 +1,10 @@
+teja 1
+chandu 2
+pardhu 3
+nani 4
+bharath 5
+prasad 6
+charan 7
+durvasulu 8
+pablo 9
+akash 10
