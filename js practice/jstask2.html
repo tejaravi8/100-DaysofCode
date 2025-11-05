@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="t">Color Game</h1>
+    <br><br>
+    <button onclick="red()">Red</button>
+    <button onclick="blue()">Blue</button>
+    <button onclick="green()">Green</button>
+    <button onclick="orange()">Orange</button>
+    <button onclick="reset()">Reset</button>
+
+    <script>
+        function red(){
+            document.getElementById("t").textContent="Current Color: Red"
+            document.body.style.backgroundColor="red"
+        }
+        function blue(){
+            document.getElementById("t").textContent="Current Color: Blue"
+            document.body.style.backgroundColor="blue"
+        }
+        function green(){
+            document.getElementById("t").textContent="Current Color: Green"
+            document.body.style.backgroundColor="green"
+        }
+        function orange(){
+            document.getElementById("t").textContent="Current Color: Orange"
+            document.body.style.backgroundColor="orange"
+        }
+        function reset(){
+            document.body.style.backgroundColor="white"
+            document.getElementById("t").innerText="Color Game"
+        }
+    </script>
+</body>
+</html>
