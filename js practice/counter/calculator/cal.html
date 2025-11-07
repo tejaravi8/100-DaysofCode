@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .first{
+            background-color: black;
+            color: white;
+            height: 50vh;
+            justify-items: end;
+            align-content: end;
+        } */
+        .second{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height: 25vh;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="h">0</h1>
+
+    <div class="second">
+        <button onclick="number(1)">1</button>
+        <button onclick="number(2)">2</button>
+        <button onclick="number(3)">3</button>
+        <button onclick="plus()">+</button>
+        <button onclick="number(4)">4</button>
+        <button onclick="number(5)">5</button>
+        <button onclick="number(6)">6</button>
+        <!-- <button onclick="operator('-')">-</button> -->
+        <button onclick="number(7)">7</button>
+        <button onclick="number(8)">8</button>
+        <button onclick="number(9)">9</button>
+        <!-- <button onclick="operator('*')">*</button> -->
+        <!-- <button onclick="operator('clear')">clear</button> -->
+        <button onclick="number(0)">0</button>
+        <!-- <button onclick="operator('.')">.</button>
+        <button onclick="operator('/')">/</button> -->
+        <script src="cal.js"></script>
+    </div>
+</body>
+</html>
