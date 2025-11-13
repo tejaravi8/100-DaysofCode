@@ -13,9 +13,8 @@ function reset(){
     num=0
     document.getElementById("number").innerText=num
     document.getElementById("mmm").style.color="black"
-    
-
 }
+
 function decrement(){
     num-=1
     document.getElementById("number").innerText=num

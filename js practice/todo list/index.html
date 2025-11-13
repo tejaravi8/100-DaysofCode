@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>to do list</h1>
+    <input type="text" placeholder="Enter Task" id="hh">
+    <button onclick="task()">Add Task</button><br>
+    
+
+    <script>
+        let arr=[];
+        function task(){
+            let div=document.createElement("div");
+            div.style.height="50px"
+            div.style.width="200px"
+            div.style.backgroundColor="yello"
+            let butt=document.createElement("button")
+            butt.innerText="remove"
+
+            let x=document.getElementById("hh").value;
+            let ta=document.createElement("p");
+            div.append(ta,butt)
+            // // let butt=document.createElement("button")
+            ta.innerText=x;
+            document.body.appendChild(div)
+            
+            arr.push(ta)
+        }
+        function remove(){
+            
+        }
+    </script>
+</body>
+</html>
