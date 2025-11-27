@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods Project</title>
+    <style>
+        textarea { width: 300px; height: 120px; }
+        pre { background: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Text Analyzer</h2>
+
+    <textarea id="text" placeholder="Enter text here..."></textarea><br><br>
+
+    <button onclick="analyze()">Analyze</button>
+
+    <br><br>
+
+    <pre id="output"></pre>
+
+    <script>
+        function analyze() {
+            let t = document.getElementById("text").value.trim();
+
+            let words = t.split(" ").filter(w => w.length > 0);
+
+            let longest = words.reduce((a, b) => a.length > b.length ? a : b, "");
+            let shortest = words.reduce((a, b) => a.length < b.length ? a : b, words[0] || "");
+
+            let result = `
+Original: ${t}
+Characters: ${t.length}
+Words: ${words.length}
+Uppercase: ${t.toUpperCase()}
+Lowercase: ${t.toLowerCase()}
+Trimmed: ${t.trim()}
+Longest Word: ${longest}
+Shortest Word: ${shortest}
+            `;
+
+            document.getElementById("output").innerText = result;
+        }
+    </script>
+
+</body>
+</html>

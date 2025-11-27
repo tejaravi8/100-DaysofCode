@@ -1,0 +1,15 @@
+#print{
+    background-color: rgba(52, 115, 234, 0.8);
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 20vw;
+}
+
+body{
+    justify-self: center;
+}
+button{
+    position: relative;
+    left: 100px;
+}

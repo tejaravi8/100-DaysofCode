@@ -1,0 +1,42 @@
+/* body{
+    background-color: rgb(255, 255, 255);
+ } */
+
+#button{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: white;
+}
+
+.main .first{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.red{
+    background-color: red;
+    color: black;
+}
+.green{
+    background-color: green;
+    color: black;
+}
+.blue{
+    background-color: blue;
+    color: black;
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+.pink{
+    background-color: pink;
+    color: black;
+}
+/* #small{
+    display: flex;
+    justify-content: space-evenly;
+} */

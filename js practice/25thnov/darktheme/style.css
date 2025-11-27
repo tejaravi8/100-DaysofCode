@@ -1,0 +1,26 @@
+textarea{
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid rgb(214, 85, 85); */
+    border-radius: 5px 15px;
+}
+
+.dark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

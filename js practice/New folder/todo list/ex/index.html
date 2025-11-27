@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="colour('red')">Red</button>
+    <button onclick="colour('green')">Green</button>
+    <button onclick="colour('blue')">Blue</button>
+    <button onclick="colour('yellow')">Yellow</button>
+    <button onclick="colour('pink')">Pink</button>
+    <button onclick="colour('white')">Clear</button>
+<br><br>
+    
+
+    <script>
+        
+
+        function colour(color){
+            
+        let div=document.createElement("div")
+        div.style.height="50px"
+        div.style.width="50px"
+        let e=document.createElement("div")
+        div.style.backgroundColor=color
+        e.appendChild(div)
+        document.body.appendChild(e)
+        if (color=="white"){
+            e.style.backgroundColor="white"
+            console.log('h')
+        }
+         
+        }
+        
+    </script>
+</body>
+</html>

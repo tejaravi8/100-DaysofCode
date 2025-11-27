@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .main{
+            height: 500px;
+            width: 500px;
+            border: black 2px solid;
+            position: relative;
+        }
+        .snake{
+            height: 20px;
+            width: 20px;
+            background-color: green;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="snake" id="snake"></div>
+    </div>
+    <script>
+        let x=0;
+        let y=0;
+        let snake=document.getElementById("snake")
+        document.body.addEventListener("keydown",function(event){
+            console.log(event.key)
+            if (event.key=="ArrowDown"){
+                x+=10
+                snake.style.top=x+"px"
+            }else if(event.key=="ArrowRight"){
+                y+=10
+                snake.style.left=y+"px"
+            }else if(event.key=="ArrowLeft"){
+                y-=10
+                snake.style.left=y+"px" 
+            }else if(event.key=="ArrowUp"){
+                x-=10
+                snake.style.top=x+"px"
+            }
+        })
+    </script>
+</body>
+</html>

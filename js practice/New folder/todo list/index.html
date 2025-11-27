@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        div{
+            border: 1px solid black;
+            height: 400px;
+            width: 400px;
+            padding: 10px;
+        }
+        p{
+            background-color: yellow;
+            padding: 5px;
+            margin: 5px 0;
+            width: 250px;
+            display: inline-block;
+        }
+        .task{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>To Do List</h1>
+    <input type="text" placeholder="enter your task" id="inp">
+    <button type="button" onclick="addTask()">add</button>
+
+    <br><br>
+    <div id="taskBox"></div>
+
+    <script>
+        let tasks = [];   // MAIN ARRAY
+        let input = document.getElementById("inp");
+        let taskBox = document.getElementById("taskBox");
+
+        // ADD function
+        function addTask() {
+            if (input.value.trim() === "") return;
+
+            tasks.push(input.value);   // ADD to array
+            input.value = "";
+            render();                  // REFRESH UI
+        }
+
+        // REMOVE function
+        function removeTask(index) {
+            tasks.splice(index, 1);    // REMOVE from array
+            render();                  // REFRESH UI
+        }
+
+        // UI RENDER function
+        function render() {
+            taskBox.innerHTML = "";   // CLEAR UI
+
+            tasks.forEach((task, i) => {
+                let div = document.createElement("div");
+                div.className = "task";
+
+                let p = document.createElement("p");
+                p.innerText = task;
+
+                let btn = document.createElement("button");
+                btn.innerText = "remove";
+                btn.onclick = () => removeTask(i);
+
+                div.append(p, btn);
+                taskBox.append(div);
+            });
+        }
+    </script>
+
+</body>
+</html>
