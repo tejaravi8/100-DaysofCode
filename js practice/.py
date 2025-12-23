@@ -14,3 +14,18 @@
 
 # num3 = num1 + num2  # Calls __add__
 # print(num3)        # Calls __str__
+
+
+# a = [1, [2, 3], [4, [5, 6]]]
+# flat=[]
+# def divide(n):
+#     for i in n:
+#         if type(i)==list:
+#             divide(i)
+#         else:
+#             flat.append(i)
+#     return flat
+# print(divide(a))
+
+
+

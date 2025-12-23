@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <style>
+        .box { width: 350px; padding: 10px; border: 1px solid black; }
+        .item { display: flex; justify-content: space-between; margin: 5px 0; }
+        .summary { background: #eee; padding: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Expense Tracker</h2>
+
+    <input type="text" id="name" placeholder="Expense name">
+    <input type="number" id="amount" placeholder="Amount">
+    <input type="text" id="category" placeholder="Category (food, travel...)">
+    <button onclick="add()">Add</button>
+
+    <br><br>
+
+    <div class="box" id="list"></div>
+
+    <div class="summary" id="summary"></div>
+
+    <script>
+        let expenses = [];
+
+        function add() {
+            let name = document.getElementById("name").value.trim();
+            let amount = Number(document.getElementById("amount").value);
+            let category = document.getElementById("category").value.trim();
+
+            if (!name || !amount || !category) return alert("Fill all fields");
+
+            expenses.push({ name, amount, category });
+
+            document.getElementById("name").value = "";
+            document.getElementById("amount").value = "";
+            document.getElementById("category").value = "";
+
+            render();
+        }
+
+        function render() {
+            let listBox = document.getElementById("list");
+            let summaryBox = document.getElementById("summary");
+
+            // Render list
+            listBox.innerHTML = "";
+            expenses.forEach((e, i) => {
+                listBox.innerHTML += `
+                    <div class="item">
+                        <span>${e.name} (${e.category})</span>
+                        <span>₹${e.amount}</span>
+                    </div>
+                `;
+            });
+
+            // ----- reduce() calculations -----
+
+            // 1. Total Expense
+            let total = expenses.reduce((acc, e) => acc + e.amount, 0);
+
+            // 2. Highest Expense
+            let highest = expenses.reduce((acc, e) =>
+                e.amount > acc.amount ? e : acc
+            , expenses[0] || { amount: 0 });
+
+            // 3. Lowest Expense
+            let lowest = expenses.reduce((acc, e) =>
+                e.amount < acc.amount ? e : acc
+            , expenses[0] || { amount: 0 });
+
+            // 4. Category-wise totals
+            let categoryTotals = expenses.reduce((acc, e) => {
+                acc[e.category] = (acc[e.category] || 0) + e.amount;
+                return acc;
+            }, {});
+
+            let categoryOutput = Object.entries(categoryTotals)
+                .map(([cat, amt]) => `${cat}: ₹${amt}`)
+                .join("<br>");
+
+            // Show summary
+            summaryBox.innerHTML = `
+                <h3>Summary</h3>
+                Total Expense: ₹${total} <br>
+                Highest: ${highest.name || "-"} (₹${highest.amount}) <br>
+                Lowest: ${lowest.name || "-"} (₹${lowest.amount}) <br><br>
+
+                <b>Category-wise:</b><br>
+                ${categoryOutput || "No data"}
+            `;
+        }
+    </script>
+
+</body>
+</html>

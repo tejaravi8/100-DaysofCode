@@ -92,6 +92,6 @@
     #     ne.write(data)
 
 
-with open("relace.txt", "r") as f1, open("reversed.txt", "r") as f2, open("combined.txt", "w") as out:
-    out.write(f1.read() + "\n" + f2.read())
+# with open("relace.txt", "r") as f1, open("reversed.txt", "r") as f2, open("combined.txt", "w") as out:
+#     out.write(f1.read() + "\n" + f2.read())
         

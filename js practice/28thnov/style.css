@@ -1,0 +1,15 @@
+.division{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    /* background-color: black; */
+    display: inline-block;
+    justify-self: center;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
